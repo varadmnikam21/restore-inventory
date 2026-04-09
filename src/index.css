@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  /* Colors */
+  --color-error: #ba1a1a;
+  --color-surface-container-low: #f3f3f3;
+  --color-on-surface-variant: #40493d;
+  --color-on-tertiary-container: #ffedf0;
+  --color-on-background: #1a1c1c;
+  --color-tertiary-container: #b14b6f;
+  --color-on-primary: #ffffff;
+  --color-on-secondary-container: #19722b;
+  --color-on-tertiary-fixed: #3f001c;
+  --color-outline: #707a6c;
+  --color-primary-fixed: #a3f69c;
+  --color-on-primary-fixed: #002204;
+  --color-on-error-container: #93000a;
+  --color-surface-container-lowest: #ffffff;
+  --color-outline-variant: #bfcaba;
+  --color-background: #f9f9f9;
+  --color-error-container: #ffdad6;
+  --color-primary: #0d631b;
+  --color-primary-fixed-dim: #88d982;
+  --color-on-tertiary-fixed-variant: #7f2448;
+  --color-inverse-surface: #2f3131;
+  --color-surface-container: #eeeeee;
+  --color-surface: #f9f9f9;
+  --color-inverse-primary: #88d982;
+  --color-on-primary-container: #cbffc2;
+  --color-primary-container: #2e7d32;
+  --color-secondary-fixed-dim: #83da85;
+  --color-surface-bright: #f9f9f9;
+  --color-surface-variant: #e2e2e2;
+  --color-on-tertiary: #ffffff;
+  --color-on-surface: #1a1c1c;
+  --color-on-secondary-fixed: #002105;
+  --color-surface-dim: #dadada;
+  --color-surface-container-highest: #e2e2e2;
+  --color-on-primary-fixed-variant: #005312;
+  --color-secondary-container: #9cf49c;
+  --color-inverse-on-surface: #f0f1f1;
+  --color-surface-container-high: #e8e8e8;
+  --color-on-error: #ffffff;
+  --color-secondary-fixed: #9ff79f;
+  --color-on-secondary: #ffffff;
+  --color-tertiary-fixed: #ffd9e2;
+  --color-tertiary-fixed-dim: #ffb1c7;
+  --color-tertiary: #923357;
+  --color-on-secondary-fixed-variant: #005318;
+  --color-surface-tint: #1b6d24;
+  --color-secondary: #126d27;
+
+  /* Border Radius */
+  --radius: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+body {
+  font-family: var(--font-sans);
+}
